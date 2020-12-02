@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="css/estilo.css">
+    
+    <link rel="icon" type="image/jpg" href="images\Bake.png" height: "content" witdh:"content" >
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Bake</title>
+</head>
+<body id="page-body">
+    <div id="container">
+        <div class="middle">
+            <div id="header">
+                <h1 id="titulo_mail">¡HABLEMOS!</h1>
+                <h2>
+                    Déjame tus datos y un mensaje. ¡Nos comunicaremos en cuanto podamos!
+                </h2>
+            </div>
+
+            <label for="form-name">Tu nombre:</label><br>
+            <input type="text" id="form-name" name="form-name"><br><br>
+            <label for="form-mail">Tu correo electrónico:</label><br>
+            <input type="text" id="form-mail" name="form-mail"><br><br>
+            <label for="form-message">Tu mensaje:</label><br>
+            <textarea id="form-message" name="form-message" rows="4" cols="50"></textarea><br><br>
+            <a class="button" onclick="enviarMail()">
+                <i class="fa fa-paper-plane m-r-10"></i>
+                ¡Enviar!
+            </a>
+
+            <a class="float button circular-button" onclick="cambiarTema()">
+                <i class="fa fa-sun-o middle" id="theme-icon"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/tema.js"></script>
+    <script src="js/mail.js"></script>
+
+</body>
+</html>
