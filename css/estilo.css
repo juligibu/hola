@@ -159,3 +159,39 @@ label {
     border-radius: 50%;
 
 }
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color:rgb(124, 189, 233);
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  
